@@ -1,0 +1,83 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package c0697255;
+import java.util.*;
+
+/**
+ *
+ * @author 697255
+ */
+public class C0697255 {
+    public static void main(String[] args){
+        Jungle j1 = newJungle();
+        j1.run ();
+    
+    }
+}
+
+    
+    
+  class jungle {
+      
+      Competition Competition1 = new Competition  ();
+      Lion L1;
+      Tiger T1;
+      public Jungle () {}
+      public void run () {}
+      
+      
+      System.out.println("winner is" + Competition1.doCompetition(L1,T1)):
+  }
+ 
+    class  Competition  {
+        public String doCompetition(Feline Lion1, Feline Tiger1 ){
+            String winningAnimal= "";
+            int NumberofLionWinners =0;
+            int NumberofTigersWinners =0;
+            
+            
+            for ( int i =0; i<100; i++){
+                Lion1 = new Lion();
+                Tiger1 = new Tiger ();
+                
+                
+                if (Lion1.Strength>Tiger1.Strength){
+                    NumberofLionWinners++;
+                    
+                }
+            
+        }
+        
+            if (NumberOfLionWinners>NumberOfTigerWinners){
+                return "Lions";
+            }
+            else{return "Tigers";}
+            
+                
+            }
+    }
+    class Feline{ 
+        public String name;
+        public int Strength =0;
+        public Feline () {
+            
+            Random r1 = new Random()
+;
+            Strength = r1.nextInt(100);
+            
+        }
+    }
+    Class Tiger extends Feline{
+
+public String name = "Sara";
+
+}
+ 
+Class Lion extends Feline {
+
+public String name ="Gerrge" ;
+
+}
